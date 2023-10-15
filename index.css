@@ -548,6 +548,7 @@ body {
   position: relative;
   max-width: var(--dl-size-size-maxwidth);
   align-items: center;
+  padding: 20px !important;
   padding-left: var(--dl-space-space-oneandhalfunits);
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: row;
@@ -590,10 +591,11 @@ body {
   height: 700px;
   display: flex;
   overflow-x: hidden;
-  align-items: flex-end;
+  align-items: flex-start;
   flex-direction: row;
   justify-content: space-between;
   background-color: rgba(250, 228, 142, 1);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important
 }
 .home-image02 {
   height: 100%;
@@ -729,8 +731,7 @@ body {
 }
 .home-image05 {
   flex: 1;
-  height: 640px;
-  object-fit: cover;
+  height: 300px !important;
 }
 .home-services {
   gap: var(--dl-space-space-twounits);
@@ -854,11 +855,13 @@ body {
 .home-quote3 {
   color: rgb(255, 255, 255);
   width: 100%;
-  font-size: 20px;
+  font-size: 30px;
   max-width: 600px;
   text-align: center;
   font-family: Lato;
   line-height: 30px;
+  font-weight: 300;
+  height: 90px;
 }
 .home-author1 {
   gap: 4px;
@@ -880,6 +883,9 @@ body {
   padding-top: var(--dl-space-space-oneandhalfunits);
   border-color: #ffffff;
   border-top-width: 1px;
+}
+.home-name {
+  max-width: 220px !important;
 }
 .home-origin1 {
   color: rgb(255, 255, 255);
@@ -1755,7 +1761,7 @@ body {
     width: 100%;
     height: auto;
     position: static;
-    align-items: flex-end;
+    align-items: flex-start;
     aspect-ratio: 1;
     justify-content: flex-start;
   }
@@ -2311,4 +2317,13 @@ body {
 
 .a7y-split {
   border-top: 1px solid black !important;
+}
+
+.a7y-footer-img {
+  width: 200px;
+}
+
+.a7y-background {
+  width: 100% !important;
+  height: auto !important;
 }

@@ -595,7 +595,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   background-color: rgba(250, 228, 142, 1);
-  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% !important;
 }
 .home-image02 {
   height: 100%;
@@ -1052,7 +1052,6 @@ body {
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: row;
   padding-bottom: 130px;
-  border-bottom-width: 1px;
 }
 .home-content3 {
   gap: var(--dl-space-space-unit);
@@ -2316,7 +2315,10 @@ body {
 }
 
 .a7y-split {
-  border-top: 1px solid black !important;
+  width: 100%;
+  max-width: 80vw;
+  border-top: 1px solid #6675df;
+  height: 1px;
 }
 
 .a7y-footer-img {

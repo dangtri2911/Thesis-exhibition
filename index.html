@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <title>Remarkable (Template 6)</title>
-  <meta property="og:title" content="Remarkable (Template 6)" />
+  <title>A7Y project</title>
+  <meta property="og:title" content="A7Y project" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta charset="utf-8" />
   <meta property="twitter:card" content="summary_large_image" />
@@ -16,6 +16,8 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
     data-tag="font" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
   <!--This is the head section-->
   <!-- <style> ... </style> -->
 </head>
@@ -378,36 +380,48 @@
         </div>
       </section>
       <section class="home-galleries">
-        <div class="home-gallery-desktop">
-          <div class="home-column07">
-            <img alt="image" src="public/mobile1.png" class="home-image43" />
-          </div>
-          <div class="home-column08">
-            <div class="home-row5">
-              <img alt="image" src="public/mobile2.png" class="home-image44" />
-            </div>
-            <div class="home-row6">
-              <!-- <img alt="image" src="public/mobile2.png" class="home-image45" /> -->
-              <img alt="image" src="public/mobile3.png" class="home-image46" />
-            </div>
-          </div>
-          <div class="home-column07">
-            <div class="home-row7">
-              <img alt="image" src="public/mobile4.png" class="home-image50" />
-            </div>
-          </div>
+        <div class="home-heading mb-5">
+          <h2 class="home-text10 a7y-color">Screenshot</h2>
         </div>
-        <div class="home-gallery-mobile">
-          <div class="home-row7">
-            <img alt="image" src="public/mobile1.png" class="home-image50" />
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" id="myCarousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+              aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+              aria-label="Slide 7"></button>
           </div>
-          <div class="home-column09">
-            <img alt="image" src="public/mobile2.png" class="home-image47" />
-            <img alt="image" src="public/mobile3.png" class="home-image48" />
-          </div>
-          <div class="home-column10">
-            <div class="home-yellow1"></div>
-            <img alt="image" src="public/mobile4.png" class="home-image49" />
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img alt="image" src="public/pc1.png" class="d-block" />
+            </div>
+            <div class="carousel-item">
+              <img alt="image" src="public/pc2.png" class="d-block" />
+            </div>
+            <div class="carousel-item">
+              <img alt="image" src="public/pc3.png" class="d-block" />
+            </div>
+            <div class="carousel-item">
+              <img alt="image" src="public/mobile1.png" class="d-block" />
+            </div>
+            <div class="carousel-item">
+              <img alt="image" src="public/mobile2.png" class="d-block" />
+            </div>
+            <div class="carousel-item">
+              <img alt="image" src="public/mobile3.png" class="d-block" />
+            </div>
+            <div class="carousel-item">
+              <img alt="image" src="public/mobile4.png" class="d-block" />
+            </div>
           </div>
         </div>
       </section>
@@ -531,13 +545,13 @@
               <div class="footer-contact">
                 <img alt="image" src="public/group%201639.svg" class="footer-image" />
                 <span class="footer-text01">
-                  <span>Dang Dang Tri</span>
+                  <a href="https://github.com/dangtri2911">Dang Dang Tri</a>
                 </span>
               </div>
               <div class="footer-contact">
                 <img alt="image" src="public/group%201639.svg" class="footer-image" />
                 <span class="footer-text01">
-                  <span>Truong Thanh Nhut</span>
+                  <a href="https://github.com/RyanTruongg">Truong Thanh Nhut</a>
                 </span>
               </div>
             </div>
@@ -563,7 +577,6 @@
       </div>
     </div>
   </div>
-  <script data-section-id="navbar" src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
 </body>
 
 </html>
